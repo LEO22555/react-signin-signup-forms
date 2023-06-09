@@ -1,7 +1,5 @@
-const SignContext = () => {
-  return (
-    <div>SignContext</div>
-  )
-}
+import { createContext } from "react";
 
-export default SignContext
+const SignContext = createContext();
+
+export default SignContext;
